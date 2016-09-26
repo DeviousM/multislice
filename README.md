@@ -1,12 +1,10 @@
 # Array multislice
----
 
 Multislice is made to slice mutliple ranges from an array at once using predefined index ranges.
 Just import the module and you're ready to go!
 
 
 # Usage example:
----
 
 	import 'multislice';
 	
@@ -23,6 +21,5 @@ Just import the module and you're ready to go!
 	// Output will be: [[2,3,4],[6,7,8,9,10]]
 	
 	
----
 # License
 ISC License
