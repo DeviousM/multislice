@@ -1,10 +1,10 @@
 {
   "name": "multislice",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Easily slice multiple ranges from an array.",
-  "main": "src/multislice.js",
+  "main": "lib/multislice.js",
   "scripts": {
-    "compile": "babel --presets es2015,stage-0 -d lib/ src/",
+    "compile": "babel --presets es2015 -d lib/ src/",
     "prepublish": "npm run compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
