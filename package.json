@@ -1,0 +1,31 @@
+{
+  "name": "multislice",
+  "version": "1.0.0",
+  "description": "Easily slice multiple ranges from an array.",
+  "main": "src/multislice.js",
+  "scripts": {
+    "compile": "babel --presets es2015,stage-0 -d lib/ src/",
+    "prepublish": "npm run compile",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeviousM/multislice.git"
+  },
+  "keywords": [
+    "array",
+    "slice",
+    "multi",
+    "multislice"
+  ],
+  "author": "Michał Kostrzyński <michal@nicciekawego.pl>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeviousM/multislice/issues"
+  },
+  "homepage": "https://github.com/DeviousM/multislice#readme",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.1"
+  }
+}
